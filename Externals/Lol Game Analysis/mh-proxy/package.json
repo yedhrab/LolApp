@@ -1,0 +1,20 @@
+{
+  "name": "mh-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for Match History timeline events API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "now-start": "mkdir /tmp/timeline_cache && TIMELINE_CACHE=/tmp/timeline_cache node index.js",
+    "deploy": "rm -rf timelines/* && now"
+  },
+  "author": "Zach Bruggeman <mail@bruggie.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.72.0",
+    "restify": "^4.1.0"
+  },
+  "devDependencies": {
+    "now": "^0.25.1"
+  }
+}

@@ -1,0 +1,36 @@
+.minimap {
+  width: 512px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.minimap .minimap-image {
+  width: 512px;
+  height: 512px;
+  background-image: url('/img/minimap.jpg');
+}
+
+.minimap .players, .minimap .events {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.minimap .player-sprite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 34px;
+  transition: transform 1s linear;
+  background-size: 34px 34px;
+  background-position: -2px -2px;
+  border-radius: 1em;
+  border: 2px solid;
+}
+
+.minimap .event-sprite {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

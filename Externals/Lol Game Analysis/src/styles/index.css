@@ -1,0 +1,111 @@
+@import "normalize.css";
+@import "nouislider.css";
+@import "buttons.css";
+@import "forms.css";
+
+html {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont,
+  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+  "Open Sans", "Helvetica Neue", sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  color: #777;
+  letter-spacing: 0.01em;
+}
+
+h1, h2 {
+  color: #4b4b4b;
+}
+
+.float-left {
+  float: left;
+}
+
+.about {
+  text-align: right;
+}
+
+.msi-box {
+  width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  color: #31708f;
+  background-color: #d9edf7;
+  border: 1px solid #bce8f1;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.info-box {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.info-box > div, .info-box form {
+  float: left;
+  width: 400px;
+}
+
+.info-box .esportspedia-links a {
+  display: block;
+  margin-top: 5px;
+}
+
+.info-box form input[type="text"] {
+  width: 250px;
+}
+
+.info-box form input[type="submit"] {
+  margin-left: 5px;
+}
+
+.not-found p {
+  width: 800px;
+  margin: 0 auto;
+  color: #a94442;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+  border-radius: 2px;
+  padding: 20px;
+}
+
+.overview {
+  position: relative;
+}
+
+.play-button {
+  width: 85px;
+  position: absolute;
+  top: 68px;
+  right: 0;
+}
+
+.mh-button {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: -4px;
+}
+
+.speed-form {
+  float: right;
+}
+
+.btw {
+  clear: left;
+  padding-top: 25px;
+}
+
+.fineprint {
+  font-size: 12px;
+  clear: left;
+  padding-top: 35px;
+}
