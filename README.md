@@ -1,6 +1,6 @@
-# League of Legends (LoL) Uygulaması <!-- omit in toc -->
+# League of Legends (LoL) Rehber Uygulaması <!-- omit in toc -->
 
-Android için League of Legends (LoL) yapımı.
+Android için League of Legends (LoL) rehber uygulaması yapımı.
 
 > Hasar hesaplama excel'ine [buradan](/res/LOL%20-%20Dmg%20Calculator.xlsx) erişebilirsin
 
